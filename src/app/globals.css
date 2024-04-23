@@ -6,6 +6,9 @@
 
 
   :root {
+  
+    --color-primary: #7b32c4;
+    --color-secondary: #2DD4BF;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
