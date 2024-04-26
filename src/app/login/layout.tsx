@@ -1,6 +1,5 @@
 
-import "./globals.css";
-import styles from "./login.module.css"
+
 
 
 export default function RootLayout({
@@ -10,7 +9,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body className={`h-full ${styles.login}`}>{children}</body>
+      <body className={`h-full`}>{children}</body>
     </html>
   );
 }

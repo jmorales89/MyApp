@@ -1,3 +1,6 @@
+// interface for all users
+
+// internal user interface
 export interface InternalUser {
     id: string,
     firstName:string,
